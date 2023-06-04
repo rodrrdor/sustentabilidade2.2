@@ -26,7 +26,7 @@ class Trash {
             }
         }
 
-        if (mouse.down == false) {
+        if (!mouse.down) {
             this.hold = false;
             mouse.holds = false;
         }
