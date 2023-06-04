@@ -171,7 +171,7 @@ function draw() {
 
     write("Acertos: " + score, 40, 1);
     write("Erros: " + mistakes, 40, 2);
-    write("Tempo: " + ((timer) / 60).toFixed(0), 40, 3);
+    write("Tempo: " + (timer / 60).toFixed(0), 40, 3);
 
 }
 
