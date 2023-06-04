@@ -34,7 +34,6 @@ class Trash {
         if (this.hold) {
             this.x = mouse.x;
             this.y = mouse.y;
-            return;
         }
 
         let index = trashes.indexOf(this);
