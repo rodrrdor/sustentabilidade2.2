@@ -99,7 +99,6 @@ class Trash {
         mouse.downX = mouse.x;
         mouse.downY = mouse.y;
         mouse.down = true;
-
     });
 
     addEventListener("mouseup", () => {
